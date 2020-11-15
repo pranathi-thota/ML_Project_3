@@ -14,6 +14,8 @@ My chatbot takes input of health issues and displays the food to eat anf food to
 ## Description
 At present, many people are suffering from different health issues as they don't even follow a proper diet for that health problem. So on that basis, I come up with a solution. I had done a chatbot which gives you the food to eat and food to avoid if you give your health issue as input. It would be beneficial for the people who don't know to follow the particular diet for their health issue. 
 
+## Heroku link
+https://git.heroku.com/food-healthy.git
 
 ## Youtube video link
 [![Youtbe video link](https://img.youtube.com/vi/qScAf0nV2UM/0.jpg)](https://www.youtube.com/watch?v=qScAf0nV2UM)
