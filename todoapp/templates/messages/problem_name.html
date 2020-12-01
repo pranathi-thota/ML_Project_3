@@ -1,0 +1,12 @@
+{% extends 'messages/botbase.html' %}
+{% block content %}
+<p>{{question.text}}</p>
+<ul>
+    {% for task in options.tasks %}
+    <li>Enter <i>"{{task.key}}"</i> {{task.description}}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
+
+

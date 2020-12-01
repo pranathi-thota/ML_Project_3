@@ -1,0 +1,19 @@
+
+{% extends 'messages/botbase.html' %}
+{% block content %}
+    {% if problem_info =='foods_to_eat' %}
+        <p>{{data[problem_name][problem_info]}}</p>
+        <p>{{data[problem_name][foodstoeat]}}</p>
+        <img src={{data[problem_name].foodstoeatimg}}>
+
+    {% elif problem_info=='foods_to_avoid' %}
+        <p>{{data[problem_name][problem_info]}}</p>
+        <img src={{data[problem_name].foodstoavoidimg}}>
+
+    {% endif %}
+    
+{% endblock %}
+
+
+
+  

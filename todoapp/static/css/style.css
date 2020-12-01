@@ -1,0 +1,107 @@
+body{
+    background:url(https://res.cloudinary.com/grohealth/image/upload/c_fill,f_auto,fl_lossy,h_650,q_auto,w_1085,x_0,y_0/v1583843120/DCUK/Content/Surprisingly-High-Carb-Food.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.header{
+    background-color:rgba(0,123,255,0.25);
+    height: 250px;
+    width: 650px;
+}
+.jumbotron{
+    background-color:#8da0a080;
+    color:white;
+    font-family: cursive;
+    font-style: italic;
+}
+.introduction{
+    background-color:rgba(0,0,0,0.4);
+    height: 250px;
+    width: 700px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 290px;
+}
+.logo{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin:auto;
+    margin-top:20px;
+}
+.bot_logo{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin:auto;
+    margin-top:20px;
+}
+#chat{
+    padding: 50px 0px;
+    background-image: url(../assets/bg.jpg);
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    font-family: cursive;
+    font-style: italic;
+    border: 2px white solid;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.msg{
+    display: flex;
+    padding: 10px;
+}
+
+.msg.bot{
+    margin-right: 30%;
+}
+.content{
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+.bot .content{
+    border-top-left-radius: 0px;
+    background-color: rgba(255,255,255,0.8);
+    width: 50%;
+}
+.bot::before{
+    content:"";
+    width:64px;
+    height: 64px;
+    border-radius: 32px;
+    background-image: url(../assets/bot.jpg);
+    background-size: cover;
+}
+.msg.user{
+    justify-content: flex-end;
+}
+
+
+.user .content{
+    border-top-right-radius: 0px;
+    background-color:rgba(255,255,100,0.8);
+}
+
+.user::after{
+content:"";
+width:64px;
+height: 64px;
+border-radius: 32px;
+background-image:url(../assets/user.jpg);
+background-size: cover;
+}
+.label{
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.form{
+    min-width: 150px;
+    display: block;
+    text-align: right;
+}
+.bot .content img{
+    width: 300px;
+    height: 300px;
+}
