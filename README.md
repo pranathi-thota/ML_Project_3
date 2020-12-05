@@ -18,7 +18,7 @@ At present, many people are suffering from different health issues as they don't
 https://git.heroku.com/food-healthy.git
 
 ## Youtube video link
-[![Youtbe video link](https://img.youtube.com/vi/qScAf0nV2UM/0.jpg)](https://www.youtube.com/watch?v=qScAf0nV2UM)
+[![Youtbe video link](https://img.youtube.com/vi/XCCfeSYs9oo/0.jpg)](https://www.youtube.com/watch?v=XCCfeSYs9oo)
 
 ## Block diagram
 ![Block diagram](https://raw.githubusercontent.com/pranathi-thota/ML_2020_Chatbot/main/Diet%20chatbot%20.png)
